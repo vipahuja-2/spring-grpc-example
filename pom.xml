@@ -6,6 +6,13 @@
     <artifactId>greeting-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>greeting-parent</name>
+    <packaging>pom</packaging>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.7.6</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
     <modules>
         <module>greetings-service</module>
         <module>greetings-common</module>
